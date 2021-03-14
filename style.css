@@ -1,14 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body {
+    background-image: url(fundo.jpeg);
+    background-size: cover;
 }
 
-main#container {
+main#container { 
+    background-image: linear-gradient(to left, blue, grey, white); 
 }
 
 h1.titulo {
+    font-family: 'Staatliches';
+    font-weight: bold;
+    text-decoration: underline;
+    color: black 
 }
 
 p.frase {
+    font-family: 'Cinzel';
+    font-weight: bold;
 }
 
 p.autor {
+    font-family: 'Dancing Script';
 }
